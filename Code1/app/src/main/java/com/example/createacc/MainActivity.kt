@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     var btnLogin:MaterialTextView?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
         btnLogin = findViewById(R.id.loginText)
         btnLogin?.setOnClickListener{
